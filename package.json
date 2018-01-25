@@ -1,6 +1,6 @@
 {
   "name": "@ezraobiwale/vue-masonry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VueJS application of the desandro masonry library",
   "main": "index.js",
   "scripts": {
