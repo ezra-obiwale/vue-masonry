@@ -34,5 +34,8 @@ new Vue({
 </ul>
 ```
 
-`optionsObject` is as described [here](https://masonry.desandro.com/options.html].
-`dataArray` is the array of data objects to be used in each item of the mansory list
+### Note
+
+- `optionsObject` is as described [here](https://masonry.desandro.com/options.html].
+
+- `dataArray` is the array of data objects to be used in each item of the mansory list
