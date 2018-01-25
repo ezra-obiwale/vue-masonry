@@ -1,0 +1,31 @@
+{
+  "name": "vue-masonry",
+  "version": "1.0.0",
+  "description": "VueJS application of the desandro masonry library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezra-obiwale/vue-masonry.git"
+  },
+  "keywords": [
+    "vue",
+    "js",
+    "vuejs",
+    "desandro",
+    "masonry",
+    "library"
+  ],
+  "author": "Ezra Obiwale <contact@ezraobiwale.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezra-obiwale/vue-masonry/issues"
+  },
+  "homepage": "https://github.com/ezra-obiwale/vue-masonry#readme",
+  "dependencies": {
+    "imagesloaded": "^4.1.4",
+    "masonry-layout": "^4.2.1"
+  }
+}
