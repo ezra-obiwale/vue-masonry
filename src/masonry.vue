@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Mansory from 'masonry-layout';
+import Masonry from 'masonry-layout';
 import ImagesLoaded from 'imagesloaded';
 
 export default {
