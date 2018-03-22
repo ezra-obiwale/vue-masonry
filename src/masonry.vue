@@ -22,8 +22,8 @@ export default {
       required: true
     }
   },
-  watch: {
-    data() {
+  methods: {
+    loaded() {
       // all images are loaded
       ImagesLoaded(this.selector, () => {
         this.$emit('masonry-images-loaded');
@@ -32,6 +32,14 @@ export default {
 
         this.$emit('masonry-loaded', masonry);
       });
+    }
+  },
+  mounted() {
+    this.loaded();
+  },
+  watch: {
+    data() {
+      this.loaded();
     }
   }
 }
