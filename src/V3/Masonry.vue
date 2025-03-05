@@ -5,7 +5,8 @@
 <script setup>
 import { watch } from 'vue';
 import Masonry from 'masonry-layout';
-import ImagesLoaded from 'imagesloaded';
+
+const ImagesLoaded = require('imagesloaded');
 
 const props = defineProps({
   data: {

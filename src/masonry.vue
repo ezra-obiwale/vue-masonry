@@ -6,7 +6,8 @@
 
 <script>
 import Masonry from 'masonry-layout';
-import ImagesLoaded from 'imagesloaded';
+
+const ImagesLoaded = require('imagesloaded');
 
 export default {
   props: {
