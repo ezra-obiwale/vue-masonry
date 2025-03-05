@@ -12,6 +12,7 @@
   },
   "keywords": [
     "vue",
+    "vue3",
     "js",
     "vuejs",
     "desandro",
@@ -25,7 +26,7 @@
   },
   "homepage": "https://github.com/ezra-obiwale/vue-masonry#readme",
   "dependencies": {
-    "imagesloaded": "^4.1.4",
+    "imagesloaded": "^5.0.0",
     "masonry-layout": "^4.2.1"
   }
 }

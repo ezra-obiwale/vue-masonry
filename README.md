@@ -10,6 +10,29 @@ npm i -S @ezraobiwale/vue-masonry
 
 ## Usage
 
+### Vue 3
+
+```html
+<template>
+  <ul class="grid">
+    <masonry :selector=".grid" :options="optionObject" :data="dataArray">
+      <template slot-scope="{ index, item }">
+        <li class="grid-item">
+          Index: {{ index }}<br />
+          Current item: {{ item }}
+        </li>
+      </template>
+    </masonry>
+  </ul>
+</template>
+
+<script setup>
+import { Masonry } from '@ezra-obiwale/vue-masonry';
+</script>
+```
+
+### Vue 2
+
 ```js
 import Vue from 'vue'
 import VueMasonry from '@ezraobiwale/vue-masonry'

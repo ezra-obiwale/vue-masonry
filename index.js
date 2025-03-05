@@ -1,4 +1,4 @@
-import masonry from './src/masonry';
+import masonry from './src/masonry.vue';
 export { default as Masonry } from './src/V3/Masonry.vue';
 
 export default {
@@ -6,6 +6,7 @@ export default {
     if (Vue.masonry_installed) {
       return;
     }
+
     Vue.masonry_installed = true;
 
     Vue.component('masonry', masonry);
